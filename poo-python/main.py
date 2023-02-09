@@ -1,0 +1,17 @@
+from veiculo import Veiculo
+
+caminhao_amarelo = Veiculo("amarelo", 4, "volkswagem", 40)
+print("CAMINHÃO")
+print("Cor:",caminhao_amarelo.cor)
+print("Qtd.rodas:",caminhao_amarelo.rodas)
+print("Marca:",caminhao_amarelo.marca)
+print("Tanque:",caminhao_amarelo.tanque)
+print("")
+print("CARRO")
+carro_azul = Veiculo("azul",4,"honda",18)
+print("Cor:",carro_azul.cor)
+print("Qtd.rodas:",carro_azul.rodas)
+print("Marca:",carro_azul.marca)
+print("Tanque:",carro_azul.tanque)
+carro_azul.abastecer(20)
+print("Tanque:",carro_azul.tanque)
